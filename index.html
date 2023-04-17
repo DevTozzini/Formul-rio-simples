@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Formulário</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+<form>
+    <h1><strong>Formulário</strong></h1>
+
+    <div id="login">
+    <h2><strong>Login</strong></h2>
+        <label> Nome</label>
+        <input  type="name" name="Nome" placeholder="Digite seu nome completo" required><br><br>
+     
+        <label> Email</label>
+        <input  type="email" name="Email" placeholder="contato@gmail.com" required><br><br>
+        <label >Senha</label>
+        <input type="password" placeholder="1234" required> 
+
+</div>        
+<div id="genero">
+    <h2><strong>Gênero</strong></h2>
+
+       <label for="men">Homem</label>
+        <input type="radio" name="genero" id="men" value="Homem">
+
+        <label for="woman">Mulher</label>
+        <input type="radio" name="genero" id="woman" value="Mulher">
+
+        <label for="outro">Outro</label>
+        <input type="radio" name="genero" id="outro" value="Outro">
+</div>
+<div id="endereco">
+    <h2><strong>Endereço</strong></h2>
+
+    <label> Rua</label>
+    <input type="name" name="Nome-da-rua" placeholder="Digite o nome da rua" required><br><br>
+
+    <label> Bairro</label>
+    <input type="name" name="bairro" placeholder="Digite seu bairro" required><br><br>
+
+    <label> CEP</label>
+    <input  type="number" name="Nome" placeholder="Digite seu CEP" required><br><br>
+
+    <label> Estado</label>
+        <input type="text" name="estado" placeholder="Digite o Estado" required><br>
+</div>
+<div id="escolaridade">
+    <h2><strong>Escolaridade</strong></h2>
+        
+        <select >
+            <option selected disabled value="">Selecione </option>
+            <option value="fundamental1">Ensino Fundamental Incompleto</option>
+            <option value="fundamental2">Ensino Fundamental Completo</option>
+            <option value="medio1">Ensino Médio Incompleto</option>
+            <option value="medio2">Ensino Médio Completo</option>
+            <option value="graduacao1">Graduação Incompleta</option>
+            <option value="graduacao2">Graduação Completa</option>
+        </select>
+</div>
+
+<br><br>
+        
+    <div id="botao">
+       <input id="enviar" type="submit" value="Enviar Formulario"> 
+    </div>
+</form>
+
+</section>
+    
+    
+</body>
+
+</html>
